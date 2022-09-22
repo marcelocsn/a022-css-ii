@@ -1,24 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 header{
     border-bottom: 1px solid black;
+    text-align: center;
+    position: relative;
   }
   
+  .centro{
+    text-align: center;
+  }
+
   main{
     width: 800px;
+    margin: 0 auto;
+    position: relative;
+    height: 80vh;
+  }
+
+  .text{
+    font-size: 15px;
+    margin: 2rem;
   }
   
   aside{
     width: 180px;
     border: 1px solid black;
+    position: sticky;
+    top: 100;
+    right: 0;
+    bottom: 100px;
+    text-align: center;
   }
-  
+
+  .bloco{
+    background-color: white;
+    color: black;
+    margin-left: 65vw;
+    text-align: center;
+    font-family: serif;
+  }
+
+  .bloco:active{
+    background-color: black;
+    color: white;
+  }
+    
   footer{
     background-color: black;
     color: white;
     width: 100%;
-  }
+    position:absolute;
+    bottom: 0;
+    text-align: center
+    }
+
+    button{
+      background-color: white;
+      color: black;
+    }
+    button:active{
+      background-color: black;
+      color: white;
+    }
+
+    aside:active{
+      background-color: black;
+      color: white;
+    }
+     
   
-  button{
-    background-color: black;
-    color: white;
-    font-family: serif;
-  }
